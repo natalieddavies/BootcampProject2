@@ -32,4 +32,7 @@ Questions:
 
 We feel that there can be some strong visualizations with graphs comparing the two, as well as buttons for "Cat People Secrets" or "Dog People Secrets" that randomly generates a quote from the data from that field. 
 
+Visualizations:
+- Bar chart of job categories for C & D people
+- Map of how many C & D people live in different locations
 
