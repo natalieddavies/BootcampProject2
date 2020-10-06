@@ -1,4 +1,4 @@
-#Who do you like more? Cat People... or Dog People?
+# Who do you like more? Cat People... or Dog People?
 
 After finding some online dating data from the US OKCupid, this dataset provided us with an intensive profile of individuals preferences in people. Reading through this data, we noticed that the most commonly answered question was if these individuals were "cat" or "dog" people. We havedirected our concept to typecast these "cat" or "dog" people. 
 
