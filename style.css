@@ -2,38 +2,76 @@
 CSS Style Sheet 
 */
 
-
- /* header */
- .HEADER {
-    margin-top: 0;
-    background-color:#FCF6F5FF;
-    color:#8ABAD3FF;
-    font-family: 'Nunito', sans-serif;
-    width: 100%;
-    text-align: center;
-    }
   
-  
-
-/* Body */
+/* BODY */
 body {
     background-image: url("https://reputation-communications.com/wp-content/uploads/2019/09/social-media-3846597_1280-800x504.png");
-    height: fit-content;
+    height: auto;
     background-position: center;
+    width:auto;
     background-repeat: repeat;
     background-size: cover;
   }
 
-.SLIDER {
-    height: 300px;
-    width: 300px;
+ .flex-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px */
+
+/* INTRO */
+.INTRO {
+    height: 400px;
+    width: 550PX;
+    float: left;
+    border-radius: 25px;
+    margin:30px;
+    padding: 25px 25px 25px 25px;
     background-color:#FCF6F5FF;
     border-color:#EDC2D8FF;
     border-width: 5px;
-    margin: auto;
     vertical-align: middle;
-    padding: 5%;
+    border-collapse: separate;
+    flex: 1;
   }
+
+/* SLIDER */
+.SLIDER {
+    height: 400px;
+    width: 570PX;
+    padding: 25px 25px 25px 25px;
+    float:right;
+    border-radius: 25px;
+    background-color:#FCF6F5FF;
+    border-color:#EDC2D8FF;
+    margin:30px;
+    border-width: 5px;
+    vertical-align: middle;
+    border-collapse: separate;
+    margin-right: 20px;
+} 
+
+}
+
+/* INTRO */
+.2 {
+    height: 500px;
+    width: 500PX;
+    float: left;
+    margin:30px;
+    background-color:#FCF6F5FF;
+    border-color:#EDC2D8FF;
+    border-width: 5px;
+    vertical-align: middle;
+    border-collapse: separate;
+    flex: 1;
+  }
+
 
 /* Media Queries */
 @media(max-width: 992px) {
@@ -65,8 +103,15 @@ body {
     display: none  
 }  
     .showSlide img {  
-        width: 100%;  
+        width: 70%;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 400;
     }  
+    
 .slidercontainer {  
     max-width: 1000px;  
     position: relative;  
@@ -75,10 +120,12 @@ body {
 
 .left, .right {  
     cursor: pointer;  
-    position: absolute;  
-    top: 90%;  
+    position: absolute;   
+    /* WILL HAVE TO PLAY WITH THIS
+ */
+    top: 0%;  
     width: auto;  
-    padding: 16px;  
+    padding: 10px;  
     margin-top: -22px;  
     color:  #8ABAD3FF;  
     font-weight: bold;  
@@ -143,10 +190,11 @@ body {
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
   text-align: center;
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   padding-top: 15px;
+  height: 0;
   }
 
