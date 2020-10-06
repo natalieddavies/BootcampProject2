@@ -2,6 +2,17 @@
 CSS Style Sheet 
 */
 
+h1 {
+    color:navy;
+}
+
+h3 {
+    background-color: white;
+}
+
+* {
+    font-family: Courier, monospace;
+}
   
 /* BODY */
 body {
@@ -10,7 +21,7 @@ body {
     background-position: center;
     width:auto;
     background-repeat: repeat;
-    background-size: cover;
+    background-size: auto;
   }
 
  .flex-container {
@@ -33,8 +44,23 @@ left padding is 100px */
     margin:30px;
     padding: 25px 25px 25px 25px;
     background-color:#FCF6F5FF;
+    border-style: solid;
     border-color:#EDC2D8FF;
-    border-width: 5px;
+    vertical-align: middle;
+    border-collapse: separate;
+    flex: 1;
+  }
+
+/* INTRO */
+.table {
+    height: 400px;
+    width: 1000PX;
+    border-radius: 25px;
+    margin:30px;
+    padding: 25px 25px 25px 25px;
+    background-color:#FCF6F5FF;
+    border-style: solid;
+    border-color:#EDC2D8FF;
     vertical-align: middle;
     border-collapse: separate;
     flex: 1;
@@ -48,9 +74,9 @@ left padding is 100px */
     float:right;
     border-radius: 25px;
     background-color:#FCF6F5FF;
+    border-style: solid;
     border-color:#EDC2D8FF;
     margin:30px;
-    border-width: 5px;
     vertical-align: middle;
     border-collapse: separate;
     margin-right: 20px;
@@ -131,15 +157,12 @@ left padding is 100px */
     font-weight: bold;  
     font-size: 18px;  
     transition: 0.6s ease;  
-    border-radius: 25px;  
-    background-color:  #EDC2D8FF;
 }  
 .right {  
     right: 0;  
     border-radius: 25px;  
 }  
     .left:hover, .right:hover {  
-        background-color:#8ABAD3FF;
         color:  #EDC2D8FF;
     }  
 .content {  
@@ -178,7 +201,6 @@ left padding is 100px */
     }  
 }  
 
-  
   /* Footer */
   footer {
   background-color: #FCF6F5FF;
@@ -190,7 +212,7 @@ left padding is 100px */
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
   text-align: center;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
