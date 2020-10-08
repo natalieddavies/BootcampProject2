@@ -41,5 +41,25 @@ def starsigns():
 def home():
     return "/jobs for jobs, /latlong for locations, /starsigns for starsigns"    
 
+##Flask Route for lat/long both cats and dogs
+@app.route("/both")
+def both():
+    likes_both = likes_both.to_json(orient='records')
+    return likes_both
+
+
+##Flask Route for lat/long likes cats
+@app.route("/cats")
+def cats():
+    likes_cats = likes_cats.to_json(orient='records')
+    return likes_cats
+
+##Flask Route for lat/long likes dogs
+@app.route("/dogs")
+def dogs():
+    likes_dogs = likes_dogs.to_json(orient='records')
+    return likes_dogs
+
+
 if __name__ == '__main__':
     app.run(debug=True)
