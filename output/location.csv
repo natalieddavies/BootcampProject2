@@ -1,0 +1,709 @@
+<<<<<<< HEAD
+pets,location,count
+likes both,alameda,380
+likes both,albany,117
+likes both,amsterdam,1
+likes both,arcadia,1
+likes both,atherton,17
+likes both,atlanta,2
+likes both,bayshore,1
+likes both,bellingham,1
+likes both,belmont,98
+likes both,belvedere tiburon,28
+likes both,benicia,86
+likes both,berkeley,1791
+likes both,billings,1
+likes both,boise,1
+likes both,bolinas,4
+likes both,boston,1
+likes both,brea,1
+likes both,brisbane,12
+likes both,brooklyn,1
+likes both,burlingame,129
+likes both,cambridge,1
+likes both,campbell,1
+likes both,castro valley,151
+likes both,chicago,3
+likes both,cincinnati,1
+likes both,colma,2
+likes both,columbus,1
+likes both,concord,1
+likes both,corte madera,34
+likes both,costa mesa,1
+likes both,crockett,17
+likes both,crowley,1
+likes both,daly city,230
+likes both,east palo alto,6
+likes both,edinburgh,1
+likes both,el cerrito,137
+likes both,el granada,11
+likes both,el sobrante,60
+likes both,emeryville,295
+likes both,fairfax,62
+likes both,fayetteville,1
+likes both,forest knolls,1
+likes both,foster city,5
+likes both,fremont,35
+likes both,grand rapids,1
+likes both,granite bay,1
+likes both,green brae,37
+likes both,half moon bay,48
+likes both,hayward,273
+likes both,hercules,36
+likes both,hillsborough,1
+likes both,kassel,1
+likes both,kensington,2
+likes both,kentfield,8
+likes both,lafayette,66
+likes both,lagunitas,4
+likes both,lake orion,1
+likes both,larkspur,35
+likes both,leander,1
+likes both,london,1
+likes both,long beach,2
+likes both,longwood,1
+likes both,los angeles,2
+likes both,los gatos,1
+likes both,madrid,1
+likes both,marin city,1
+likes both,martinez,141
+likes both,menlo park,176
+likes both,mill valley,120
+likes both,millbrae,49
+likes both,milpitas,1
+likes both,montara,5
+likes both,moraga,38
+likes both,moss beach,3
+likes both,mountain view,131
+likes both,muir beach,1
+likes both,napa,1
+likes both,new orleans,1
+likes both,new york,2
+likes both,north hollywood,1
+likes both,novato,156
+likes both,oakland,3122
+likes both,orinda,38
+likes both,ozone park,1
+likes both,pacifica,149
+likes both,palo alto,362
+likes both,petaluma,1
+likes both,phoenix,1
+likes both,piedmont,4
+likes both,pinole,45
+likes both,pleasant hill,147
+likes both,point richmond,2
+likes both,port costa,1
+likes both,portland,2
+likes both,providence,1
+likes both,redwood city,299
+likes both,richmond,173
+likes both,riverside,1
+likes both,rochester,1
+likes both,rodeo,13
+likes both,rohnert park,1
+likes both,ross,4
+likes both,salt lake city,1
+likes both,san anselmo,59
+likes both,san antonio,1
+likes both,san bruno,106
+likes both,san carlos,92
+likes both,san diego,2
+likes both,san francisco,11203
+likes both,san geronimo,9
+likes both,san leandro,245
+likes both,san lorenzo,60
+likes both,san mateo,505
+likes both,san pablo,76
+likes both,san rafael,312
+likes both,santa ana,1
+likes both,santa cruz,3
+likes both,santa monica,2
+likes both,santa rosa,1
+likes both,sausalito,77
+likes both,seaside,1
+likes both,south lake tahoe,1
+likes both,south san francisco,146
+likes both,south wellfleet,1
+likes both,stanford,90
+likes both,stinson beach,1
+likes both,taunton,1
+likes both,tucson,2
+likes both,union city,1
+likes both,vallejo,217
+likes both,walnut creek,248
+likes both,waterford,1
+likes both,west oakland,4
+likes both,westlake,2
+likes both,woodacre,8
+likes both,woodside,5
+likes cats,alameda,55
+likes cats,albany,18
+likes cats,atherton,1
+likes cats,belmont,16
+likes cats,belvedere tiburon,1
+likes cats,benicia,11
+likes cats,berkeley,247
+likes cats,brisbane,3
+likes cats,burlingame,11
+likes cats,castro valley,16
+likes cats,colma,1
+likes cats,corte madera,4
+likes cats,daly city,21
+likes cats,el cerrito,30
+likes cats,el granada,1
+likes cats,el sobrante,1
+likes cats,emeryville,43
+likes cats,fairfax,7
+likes cats,forest knolls,1
+likes cats,foster city,2
+likes cats,fremont,4
+likes cats,glencove,1
+likes cats,green brae,2
+likes cats,half moon bay,6
+likes cats,hayward,39
+likes cats,hercules,1
+likes cats,lafayette,7
+likes cats,lagunitas,1
+likes cats,larkspur,5
+likes cats,martinez,20
+likes cats,menlo park,24
+likes cats,miami,1
+likes cats,mill valley,20
+likes cats,millbrae,9
+likes cats,modesto,1
+likes cats,moraga,3
+likes cats,mountain view,22
+likes cats,new york,1
+likes cats,nicasio,1
+likes cats,novato,18
+likes cats,oakland,443
+likes cats,orinda,5
+likes cats,pacifica,15
+likes cats,palo alto,57
+likes cats,pinole,6
+likes cats,pleasant hill,14
+likes cats,portland,1
+likes cats,redwood city,39
+likes cats,richmond,24
+likes cats,rodeo,1
+likes cats,san anselmo,12
+likes cats,san bruno,14
+likes cats,san carlos,10
+likes cats,san francisco,1214
+likes cats,san leandro,36
+likes cats,san lorenzo,12
+likes cats,san mateo,59
+likes cats,san pablo,7
+likes cats,san quentin,1
+likes cats,san rafael,51
+likes cats,sausalito,10
+likes cats,south san francisco,15
+likes cats,stanford,11
+likes cats,stinson beach,1
+likes cats,studio city,1
+likes cats,vallejo,21
+likes cats,walnut creek,30
+likes cats,washington,1
+likes cats,woodacre,3
+likes dogs,alameda,216
+likes dogs,albany,36
+likes dogs,ashland,1
+likes dogs,atherton,15
+likes dogs,austin,1
+likes dogs,belmont,56
+likes dogs,belvedere tiburon,15
+likes dogs,benicia,44
+likes dogs,berkeley,765
+likes dogs,bolinas,1
+likes dogs,boulder,1
+likes dogs,brisbane,10
+likes dogs,brooklyn,1
+likes dogs,burlingame,98
+likes dogs,canyon country,1
+likes dogs,castro valley,76
+likes dogs,colma,1
+likes dogs,corte madera,24
+likes dogs,crockett,9
+likes dogs,daly city,141
+likes dogs,east palo alto,3
+likes dogs,el cerrito,59
+likes dogs,el granada,5
+likes dogs,el sobrante,37
+likes dogs,emeryville,177
+likes dogs,fairfax,18
+likes dogs,foster city,12
+likes dogs,fremont,30
+likes dogs,green brae,17
+likes dogs,hacienda heights,1
+likes dogs,half moon bay,21
+likes dogs,hayward,187
+likes dogs,hercules,42
+likes dogs,hilarita,1
+likes dogs,hillsborough,2
+likes dogs,honolulu,1
+likes dogs,irvine,1
+likes dogs,kansas city,1
+likes dogs,kentfield,4
+likes dogs,lafayette,43
+likes dogs,lagunitas,2
+likes dogs,larkspur,20
+likes dogs,las vegas,1
+likes dogs,los angeles,2
+likes dogs,martinez,61
+likes dogs,menlo park,112
+likes dogs,mill valley,78
+likes dogs,millbrae,37
+likes dogs,minneapolis,1
+likes dogs,montara,5
+likes dogs,moraga,23
+likes dogs,moss beach,4
+likes dogs,mountain view,81
+likes dogs,murfreesboro,1
+likes dogs,napa,1
+likes dogs,nevada city,1
+likes dogs,new york,3
+likes dogs,nha trang,1
+likes dogs,nicasio,1
+likes dogs,novato,75
+likes dogs,oakland,1482
+likes dogs,oceanview,1
+likes dogs,orange,1
+likes dogs,orinda,13
+likes dogs,pacheco,1
+likes dogs,pacifica,84
+likes dogs,palo alto,248
+likes dogs,pasadena,1
+likes dogs,petaluma,1
+likes dogs,piedmont,1
+likes dogs,pinole,24
+likes dogs,pleasant hill,87
+likes dogs,point richmond,1
+likes dogs,redwood city,145
+likes dogs,richmond,114
+likes dogs,rodeo,13
+likes dogs,ross,5
+likes dogs,salt lake city,1
+likes dogs,san anselmo,31
+likes dogs,san bruno,71
+likes dogs,san carlos,54
+likes dogs,san francisco,7627
+likes dogs,san jose,1
+likes dogs,san leandro,164
+likes dogs,san lorenzo,26
+likes dogs,san luis obispo,1
+likes dogs,san mateo,303
+likes dogs,san pablo,52
+likes dogs,san rafael,162
+likes dogs,santa cruz,1
+likes dogs,santa rosa,1
+likes dogs,sausalito,41
+likes dogs,south orange,1
+likes dogs,south san francisco,102
+likes dogs,stanford,63
+likes dogs,stockton,1
+likes dogs,sunnyvale,1
+likes dogs,tiburon,2
+likes dogs,vacaville,1
+likes dogs,vallejo,159
+likes dogs,walnut creek,155
+likes dogs,west oakland,1
+likes dogs,westlake,3
+likes dogs,woodacre,2
+likes dogs,woodside,5
+other,alameda,7
+other,albany,2
+other,belmont,1
+other,benicia,1
+other,berkeley,29
+other,burlingame,1
+other,cancer and it&rsquo;s fun to think about,1
+other,castro valley,1
+other,daly city,3
+other,el cerrito,3
+other,el sobrante,1
+other,emeryville,5
+other,half moon bay,1
+other,hayward,6
+other,larkspur,1
+other,martinez,1
+other,menlo park,3
+other,mill valley,2
+other,millbrae,1
+other,mountain view,7
+other,oakland,39
+other,orinda,1
+other,pacifica,1
+other,palo alto,7
+other,pleasant hill,5
+other,redwood city,4
+other,richmond,1
+other,rodeo,1
+other,san bruno,2
+other,san carlos,2
+other,san diego,1
+other,san francisco,183
+other,san leandro,8
+other,san lorenzo,2
+other,san mateo,8
+other,san pablo,2
+other,san rafael,2
+other,sausalito,1
+other,south san francisco,3
+other,stanford,6
+other,vallejo,4
+other,walnut creek,3
+=======
+pets,location,count
+likes both,alameda,380
+likes both,albany,117
+likes both,amsterdam,1
+likes both,arcadia,1
+likes both,atherton,17
+likes both,atlanta,2
+likes both,bayshore,1
+likes both,bellingham,1
+likes both,belmont,98
+likes both,belvedere tiburon,28
+likes both,benicia,86
+likes both,berkeley,1791
+likes both,billings,1
+likes both,boise,1
+likes both,bolinas,4
+likes both,boston,1
+likes both,brea,1
+likes both,brisbane,12
+likes both,brooklyn,1
+likes both,burlingame,129
+likes both,cambridge,1
+likes both,campbell,1
+likes both,castro valley,151
+likes both,chicago,3
+likes both,cincinnati,1
+likes both,colma,2
+likes both,columbus,1
+likes both,concord,1
+likes both,corte madera,34
+likes both,costa mesa,1
+likes both,crockett,17
+likes both,crowley,1
+likes both,daly city,230
+likes both,east palo alto,6
+likes both,edinburgh,1
+likes both,el cerrito,137
+likes both,el granada,11
+likes both,el sobrante,60
+likes both,emeryville,295
+likes both,fairfax,62
+likes both,fayetteville,1
+likes both,forest knolls,1
+likes both,foster city,5
+likes both,fremont,35
+likes both,grand rapids,1
+likes both,granite bay,1
+likes both,green brae,37
+likes both,half moon bay,48
+likes both,hayward,273
+likes both,hercules,36
+likes both,hillsborough,1
+likes both,kassel,1
+likes both,kensington,2
+likes both,kentfield,8
+likes both,lafayette,66
+likes both,lagunitas,4
+likes both,lake orion,1
+likes both,larkspur,35
+likes both,leander,1
+likes both,london,1
+likes both,long beach,2
+likes both,longwood,1
+likes both,los angeles,2
+likes both,los gatos,1
+likes both,madrid,1
+likes both,marin city,1
+likes both,martinez,141
+likes both,menlo park,176
+likes both,mill valley,120
+likes both,millbrae,49
+likes both,milpitas,1
+likes both,montara,5
+likes both,moraga,38
+likes both,moss beach,3
+likes both,mountain view,131
+likes both,muir beach,1
+likes both,napa,1
+likes both,new orleans,1
+likes both,new york,2
+likes both,north hollywood,1
+likes both,novato,156
+likes both,oakland,3122
+likes both,orinda,38
+likes both,ozone park,1
+likes both,pacifica,149
+likes both,palo alto,362
+likes both,petaluma,1
+likes both,phoenix,1
+likes both,piedmont,4
+likes both,pinole,45
+likes both,pleasant hill,147
+likes both,point richmond,2
+likes both,port costa,1
+likes both,portland,2
+likes both,providence,1
+likes both,redwood city,299
+likes both,richmond,173
+likes both,riverside,1
+likes both,rochester,1
+likes both,rodeo,13
+likes both,rohnert park,1
+likes both,ross,4
+likes both,salt lake city,1
+likes both,san anselmo,59
+likes both,san antonio,1
+likes both,san bruno,106
+likes both,san carlos,92
+likes both,san diego,2
+likes both,san francisco,11203
+likes both,san geronimo,9
+likes both,san leandro,245
+likes both,san lorenzo,60
+likes both,san mateo,505
+likes both,san pablo,76
+likes both,san rafael,312
+likes both,santa ana,1
+likes both,santa cruz,3
+likes both,santa monica,2
+likes both,santa rosa,1
+likes both,sausalito,77
+likes both,seaside,1
+likes both,south lake tahoe,1
+likes both,south san francisco,146
+likes both,south wellfleet,1
+likes both,stanford,90
+likes both,stinson beach,1
+likes both,taunton,1
+likes both,tucson,2
+likes both,union city,1
+likes both,vallejo,217
+likes both,walnut creek,248
+likes both,waterford,1
+likes both,west oakland,4
+likes both,westlake,2
+likes both,woodacre,8
+likes both,woodside,5
+likes cats,alameda,55
+likes cats,albany,18
+likes cats,atherton,1
+likes cats,belmont,16
+likes cats,belvedere tiburon,1
+likes cats,benicia,11
+likes cats,berkeley,247
+likes cats,brisbane,3
+likes cats,burlingame,11
+likes cats,castro valley,16
+likes cats,colma,1
+likes cats,corte madera,4
+likes cats,daly city,21
+likes cats,el cerrito,30
+likes cats,el granada,1
+likes cats,el sobrante,1
+likes cats,emeryville,43
+likes cats,fairfax,7
+likes cats,forest knolls,1
+likes cats,foster city,2
+likes cats,fremont,4
+likes cats,glencove,1
+likes cats,green brae,2
+likes cats,half moon bay,6
+likes cats,hayward,39
+likes cats,hercules,1
+likes cats,lafayette,7
+likes cats,lagunitas,1
+likes cats,larkspur,5
+likes cats,martinez,20
+likes cats,menlo park,24
+likes cats,miami,1
+likes cats,mill valley,20
+likes cats,millbrae,9
+likes cats,modesto,1
+likes cats,moraga,3
+likes cats,mountain view,22
+likes cats,new york,1
+likes cats,nicasio,1
+likes cats,novato,18
+likes cats,oakland,443
+likes cats,orinda,5
+likes cats,pacifica,15
+likes cats,palo alto,57
+likes cats,pinole,6
+likes cats,pleasant hill,14
+likes cats,portland,1
+likes cats,redwood city,39
+likes cats,richmond,24
+likes cats,rodeo,1
+likes cats,san anselmo,12
+likes cats,san bruno,14
+likes cats,san carlos,10
+likes cats,san francisco,1214
+likes cats,san leandro,36
+likes cats,san lorenzo,12
+likes cats,san mateo,59
+likes cats,san pablo,7
+likes cats,san quentin,1
+likes cats,san rafael,51
+likes cats,sausalito,10
+likes cats,south san francisco,15
+likes cats,stanford,11
+likes cats,stinson beach,1
+likes cats,studio city,1
+likes cats,vallejo,21
+likes cats,walnut creek,30
+likes cats,washington,1
+likes cats,woodacre,3
+likes dogs,alameda,216
+likes dogs,albany,36
+likes dogs,ashland,1
+likes dogs,atherton,15
+likes dogs,austin,1
+likes dogs,belmont,56
+likes dogs,belvedere tiburon,15
+likes dogs,benicia,44
+likes dogs,berkeley,765
+likes dogs,bolinas,1
+likes dogs,boulder,1
+likes dogs,brisbane,10
+likes dogs,brooklyn,1
+likes dogs,burlingame,98
+likes dogs,canyon country,1
+likes dogs,castro valley,76
+likes dogs,colma,1
+likes dogs,corte madera,24
+likes dogs,crockett,9
+likes dogs,daly city,141
+likes dogs,east palo alto,3
+likes dogs,el cerrito,59
+likes dogs,el granada,5
+likes dogs,el sobrante,37
+likes dogs,emeryville,177
+likes dogs,fairfax,18
+likes dogs,foster city,12
+likes dogs,fremont,30
+likes dogs,green brae,17
+likes dogs,hacienda heights,1
+likes dogs,half moon bay,21
+likes dogs,hayward,187
+likes dogs,hercules,42
+likes dogs,hilarita,1
+likes dogs,hillsborough,2
+likes dogs,honolulu,1
+likes dogs,irvine,1
+likes dogs,kansas city,1
+likes dogs,kentfield,4
+likes dogs,lafayette,43
+likes dogs,lagunitas,2
+likes dogs,larkspur,20
+likes dogs,las vegas,1
+likes dogs,los angeles,2
+likes dogs,martinez,61
+likes dogs,menlo park,112
+likes dogs,mill valley,78
+likes dogs,millbrae,37
+likes dogs,minneapolis,1
+likes dogs,montara,5
+likes dogs,moraga,23
+likes dogs,moss beach,4
+likes dogs,mountain view,81
+likes dogs,murfreesboro,1
+likes dogs,napa,1
+likes dogs,nevada city,1
+likes dogs,new york,3
+likes dogs,nha trang,1
+likes dogs,nicasio,1
+likes dogs,novato,75
+likes dogs,oakland,1482
+likes dogs,oceanview,1
+likes dogs,orange,1
+likes dogs,orinda,13
+likes dogs,pacheco,1
+likes dogs,pacifica,84
+likes dogs,palo alto,248
+likes dogs,pasadena,1
+likes dogs,petaluma,1
+likes dogs,piedmont,1
+likes dogs,pinole,24
+likes dogs,pleasant hill,87
+likes dogs,point richmond,1
+likes dogs,redwood city,145
+likes dogs,richmond,114
+likes dogs,rodeo,13
+likes dogs,ross,5
+likes dogs,salt lake city,1
+likes dogs,san anselmo,31
+likes dogs,san bruno,71
+likes dogs,san carlos,54
+likes dogs,san francisco,7627
+likes dogs,san jose,1
+likes dogs,san leandro,164
+likes dogs,san lorenzo,26
+likes dogs,san luis obispo,1
+likes dogs,san mateo,303
+likes dogs,san pablo,52
+likes dogs,san rafael,162
+likes dogs,santa cruz,1
+likes dogs,santa rosa,1
+likes dogs,sausalito,41
+likes dogs,south orange,1
+likes dogs,south san francisco,102
+likes dogs,stanford,63
+likes dogs,stockton,1
+likes dogs,sunnyvale,1
+likes dogs,tiburon,2
+likes dogs,vacaville,1
+likes dogs,vallejo,159
+likes dogs,walnut creek,155
+likes dogs,west oakland,1
+likes dogs,westlake,3
+likes dogs,woodacre,2
+likes dogs,woodside,5
+other,alameda,7
+other,albany,2
+other,belmont,1
+other,benicia,1
+other,berkeley,29
+other,burlingame,1
+other,cancer and it&rsquo;s fun to think about,1
+other,castro valley,1
+other,daly city,3
+other,el cerrito,3
+other,el sobrante,1
+other,emeryville,5
+other,half moon bay,1
+other,hayward,6
+other,larkspur,1
+other,martinez,1
+other,menlo park,3
+other,mill valley,2
+other,millbrae,1
+other,mountain view,7
+other,oakland,39
+other,orinda,1
+other,pacifica,1
+other,palo alto,7
+other,pleasant hill,5
+other,redwood city,4
+other,richmond,1
+other,rodeo,1
+other,san bruno,2
+other,san carlos,2
+other,san diego,1
+other,san francisco,183
+other,san leandro,8
+other,san lorenzo,2
+other,san mateo,8
+other,san pablo,2
+other,san rafael,2
+other,sausalito,1
+other,south san francisco,3
+other,stanford,6
+other,vallejo,4
+other,walnut creek,3
+>>>>>>> 6ac1663017774787476a4e9804208b1b4e48e39a
