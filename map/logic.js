@@ -1,7 +1,5 @@
 
 
-
-
 // Function to determine cat marker size based number of people who like cats
 function markerSize (marker) {
   return marker;
@@ -14,14 +12,19 @@ d3.json(url).then(function(response) {
   console.log(response);
 });
 
-likesCats = response.likes_cats
-likesDogs = response.likes_dogs
-likesBoth = response.likes_both
+// return data promise and save 
+const dataPromise = d3.json(url);
+console.log("Data Promise: ", dataPromise);
+
+// 
+likesCats = dataPromise.likes_cats
+likesDogs = dataPromise.likes_dogs
+likesBoth = dataPromise.likes_both
 
 // Define arrays to hold created markers
 var likesDogsMarkers = [];
 var likesCatsMarkers = [];
-var likesBothmarkers = [];
+var likesBothMarkers = [];
 
 // Loop through locations and city markers
 for (var i = 0; i < likes_dogs.length; i++) {
@@ -107,7 +110,7 @@ var overlayMaps = {
 var myMap = L.map("map", {
   center: [36.7783, -119.4179],
   zoom: 5,
-  layers: [streetmap, cats, dogs, both]
+  layers: [streetmap, dogs, cats, both]
 });
 
 // Pass our map layers into our layer control
