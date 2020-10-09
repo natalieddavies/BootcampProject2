@@ -137,5 +137,6 @@ dmypy.json
 #other files
 .DS_Store
 config.py
+config.js
 profiles2.csv
 
