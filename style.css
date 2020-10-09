@@ -51,8 +51,23 @@ left padding is 100px */
     flex: 1;
   }
 
-/* INTRO */
-.table {
+/* TABLE */
+  .table {
+    height: 400px;
+    width: 1000PX;
+    border-radius: 25px;
+    margin:30px;
+    padding: 25px 25px 25px 25px;
+    background-color:#FCF6F5FF;
+    border-style: solid;
+    border-color:#EDC2D8FF;
+    vertical-align: middle;
+    border-collapse: separate;
+    flex: 1;
+  }
+
+/* HEATMAP */
+.map {
     height: 400px;
     width: 1000PX;
     border-radius: 25px;
