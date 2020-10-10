@@ -6,6 +6,8 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 from flask import Flask, jsonify
+from flask_cors import CORS
+
 
 #############################################################################
 ##DATABASE SET UP
@@ -14,6 +16,7 @@ conn = engine.connect()
 
 ##Flask Setup
 app = Flask(__name__)
+CORS(app)
 
 ##Flask Route to ipynb jobs dataframe
 @app.route("/jobs")
@@ -44,6 +47,8 @@ def home():
 ##Flask Route for lat/long both cats and dogs
 @app.route("/both")
 def both():
+    latLong_df= pd.read_sql("select * from latLong", conn)
+    likes_both = latLong_df.loc[latLong_df["pets"] == "likes both",:]
     likes_both = likes_both.to_json(orient='records')
     return likes_both
 
@@ -51,12 +56,16 @@ def both():
 ##Flask Route for lat/long likes cats
 @app.route("/cats")
 def cats():
-    likes_cats = likes_cats.to_json(orient='records')
-    return likes_cats
+    latLong_df= pd.read_sql("select * from latLong", conn)
+    likes_cats = latLong_df.loc[latLong_df["pets"] == "likes cats",:]
+    cats = likes_cats.to_json(orient='records')
+    return cats
 
 ##Flask Route for lat/long likes dogs
 @app.route("/dogs")
 def dogs():
+    latLong_df= pd.read_sql("select * from latLong", conn)
+    likes_dogs = latLong_df.loc[latLong_df["pets"] == "likes dogs",:]
     likes_dogs = likes_dogs.to_json(orient='records')
     return likes_dogs
 
