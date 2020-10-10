@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 pets,location,count,Lat,Lng
 likes both,alameda,380,37.7798721,-122.2821855
 likes both,albany,117,37.886704,-122.2977557
@@ -18,13 +17,13 @@ likes both,bolinas,4,37.9093702,-122.6863733
 likes both,boston,1,34.4561907,-118.5832393
 likes both,brea,1,33.916475,-117.9002918
 likes both,brisbane,12,37.6807661,-122.3999715
-likes both,brooklyn,1,34.21677090000001,-118.3615921
+likes both,brooklyn,1,34.2167709,-118.3615921
 likes both,burlingame,129,37.5778696,-122.34809
 likes both,cambridge,1,33.7940533,-117.8432314
 likes both,campbell,1,37.2871651,-121.9499568
 likes both,castro valley,151,37.6955029,-122.0738678
 likes both,chicago,3,38.43713,-120.839218
-likes both,cincinnati,1,39.0653384,-84.41989269999999
+likes both,cincinnati,1,39.0653384,-84.4198927
 likes both,colma,2,37.6749036,-122.4561533
 likes both,columbus,1,33.9198465,-118.1164373
 likes both,concord,1,37.9779776,-122.0310733
@@ -40,7 +39,6 @@ likes both,el granada,11,37.5027185,-122.4694214
 likes both,el sobrante,60,37.9771452,-122.2952474
 likes both,emeryville,295,37.8395028,-122.2892278
 likes both,fairfax,62,37.9871454,-122.5888686
-likes both,fayetteville,1,,
 likes both,forest knolls,1,38.014099,-122.689598
 likes both,foster city,5,37.5585465,-122.2710788
 likes both,fremont,35,37.5485396,-121.988583
@@ -56,9 +54,7 @@ likes both,kensington,2,37.9104805,-122.2802471
 likes both,kentfield,8,37.9521465,-122.5571997
 likes both,lafayette,66,37.8857582,-122.1180201
 likes both,lagunitas,4,38.0113119,-122.7022085
-likes both,lake orion,1,,
 likes both,larkspur,35,37.9340915,-122.5352539
-likes both,leander,1,,
 likes both,london,1,36.4760619,-119.4431785
 likes both,long beach,2,33.7700504,-118.1937395
 likes both,longwood,1,33.8669836,-118.2036834
@@ -92,7 +88,7 @@ likes both,piedmont,4,37.8244063,-122.2314865
 likes both,pinole,45,38.0043667,-122.2988587
 likes both,pleasant hill,147,37.9479786,-122.0607963
 likes both,point richmond,2,37.9252463,-122.383404
-likes both,port costa,1,38.04630969999999,-122.1833005
+likes both,port costa,1,38.0463097,-122.1833005
 likes both,portland,2,45.5230979,-122.6839761
 likes both,providence,1,33.7384987,-118.3049839
 likes both,redwood city,299,37.4847955,-122.228141
@@ -123,10 +119,8 @@ likes both,sausalito,77,37.8590937,-122.4852507
 likes both,seaside,1,36.6149217,-121.822098
 likes both,south lake tahoe,1,38.939926,-119.9771868
 likes both,south san francisco,146,37.654656,-122.4077498
-likes both,south wellfleet,1,,
-likes both,stanford,90,37.42410599999999,-122.1660756
+likes both,stanford,90,37.424106,-122.1660756
 likes both,stinson beach,1,37.9004816,-122.6444263
-likes both,taunton,1,,
 likes both,tucson,2,32.3268641,-111.0519088
 likes both,union city,1,37.5933562,-122.0438609
 likes both,vallejo,217,38.1040864,-122.2566367
@@ -174,7 +168,7 @@ likes cats,modesto,1,37.6392595,-120.9970014
 likes cats,moraga,3,37.8349263,-122.1296871
 likes cats,mountain view,22,37.3860517,-122.0838511
 likes cats,new york,1,33.9928728,-118.1628414
-likes cats,nicasio,1,38.06170950000001,-122.6991484
+likes cats,nicasio,1,38.0617095,-122.6991484
 likes cats,novato,18,38.1074198,-122.5697032
 likes cats,oakland,443,37.8043514,-122.2711639
 likes cats,orinda,5,37.8771476,-122.1796888
@@ -198,7 +192,7 @@ likes cats,san quentin,1,37.9413246,-122.484704
 likes cats,san rafael,51,37.9735346,-122.5310874
 likes cats,sausalito,10,37.8590937,-122.4852507
 likes cats,south san francisco,15,37.654656,-122.4077498
-likes cats,stanford,11,37.42410599999999,-122.1660756
+likes cats,stanford,11,37.424106,-122.1660756
 likes cats,stinson beach,1,37.9004816,-122.6444263
 likes cats,studio city,1,34.1395597,-118.3870991
 likes cats,vallejo,21,38.1040864,-122.2566367
@@ -215,9 +209,9 @@ likes dogs,belvedere tiburon,15,37.8727044,-122.4644171
 likes dogs,benicia,44,38.049365,-122.1585777
 likes dogs,berkeley,765,37.8715226,-122.273042
 likes dogs,bolinas,1,37.9093702,-122.6863733
-likes dogs,boulder,1,37.12605780000001,-122.1221869
+likes dogs,boulder,1,37.1260578,-122.1221869
 likes dogs,brisbane,10,37.6807661,-122.3999715
-likes dogs,brooklyn,1,34.21677090000001,-118.3615921
+likes dogs,brooklyn,1,34.2167709,-118.3615921
 likes dogs,burlingame,98,37.5778696,-122.34809
 likes dogs,canyon country,1,34.4235425,-118.4720633
 likes dogs,castro valley,76,37.6955029,-122.0738678
@@ -263,10 +257,10 @@ likes dogs,napa,1,38.2975381,-122.286865
 likes dogs,nevada city,1,39.2615606,-121.0160594
 likes dogs,new york,3,33.9928728,-118.1628414
 likes dogs,nha trang,1,12.248166,109.1957103
-likes dogs,nicasio,1,38.06170950000001,-122.6991484
+likes dogs,nicasio,1,38.0617095,-122.6991484
 likes dogs,novato,75,38.1074198,-122.5697032
 likes dogs,oakland,1482,37.8043514,-122.2711639
-likes dogs,oceanview,1,33.71557320000001,-117.9886707
+likes dogs,oceanview,1,33.7155732,-117.9886707
 likes dogs,orange,1,33.7879139,-117.8531007
 likes dogs,orinda,13,37.8771476,-122.1796888
 likes dogs,pacheco,1,37.9854114,-122.0720633
@@ -299,7 +293,7 @@ likes dogs,santa rosa,1,38.440429,-122.7140548
 likes dogs,sausalito,41,37.8590937,-122.4852507
 likes dogs,south orange,1,33.7871702,-117.8887239
 likes dogs,south san francisco,102,37.654656,-122.4077498
-likes dogs,stanford,63,37.42410599999999,-122.1660756
+likes dogs,stanford,63,37.424106,-122.1660756
 likes dogs,stockton,1,37.9577016,-121.2907796
 likes dogs,sunnyvale,1,37.36883,-122.0363496
 likes dogs,tiburon,2,37.8735377,-122.4566392
@@ -316,7 +310,6 @@ other,belmont,1,37.5202145,-122.2758008
 other,benicia,1,38.049365,-122.1585777
 other,berkeley,29,37.8715226,-122.273042
 other,burlingame,1,37.5778696,-122.34809
-other,cancer and it&rsquo;s fun to think about,1,,
 other,castro valley,1,37.6955029,-122.0738678
 other,daly city,3,37.6879241,-122.4702079
 other,el cerrito,3,37.9161326,-122.310765
@@ -349,361 +342,6 @@ other,san pablo,2,37.9621457,-122.3455263
 other,san rafael,2,37.9735346,-122.5310874
 other,sausalito,1,37.8590937,-122.4852507
 other,south san francisco,3,37.654656,-122.4077498
-other,stanford,6,37.42410599999999,-122.1660756
+other,stanford,6,37.424106,-122.1660756
 other,vallejo,4,38.1040864,-122.2566367
 other,walnut creek,3,37.9100783,-122.0651819
-=======
-pets,location,count,Lat,Lng
-likes both,alameda,380,37.7798721,-122.2821855
-likes both,albany,117,37.886704,-122.2977557
-likes both,amsterdam,1,37.43028,-120.54111
-likes both,arcadia,1,34.1397292,-118.0353449
-likes both,atherton,17,37.4613272,-122.197743
-likes both,atlanta,2,37.812092,-121.121437
-likes both,bayshore,1,37.7063208,-122.4133047
-likes both,bellingham,1,34.1930258,-118.3977988
-likes both,belmont,98,37.5202145,-122.2758008
-likes both,belvedere tiburon,28,37.8727044,-122.4644171
-likes both,benicia,86,38.049365,-122.1585777
-likes both,berkeley,1791,37.8715226,-122.273042
-likes both,billings,1,34.031795,-118.233296
-likes both,boise,1,43.6165866,-116.2039829
-likes both,bolinas,4,37.9093702,-122.6863733
-likes both,boston,1,34.4561907,-118.5832393
-likes both,brea,1,33.916475,-117.9002918
-likes both,brisbane,12,37.6807661,-122.3999715
-likes both,brooklyn,1,34.21677090000001,-118.3615921
-likes both,burlingame,129,37.5778696,-122.34809
-likes both,cambridge,1,33.7940533,-117.8432314
-likes both,campbell,1,37.2871651,-121.9499568
-likes both,castro valley,151,37.6955029,-122.0738678
-likes both,chicago,3,38.43713,-120.839218
-likes both,cincinnati,1,39.0653384,-84.41989269999999
-likes both,colma,2,37.6749036,-122.4561533
-likes both,columbus,1,33.9198465,-118.1164373
-likes both,concord,1,37.9779776,-122.0310733
-likes both,corte madera,34,37.9254806,-122.5274755
-likes both,costa mesa,1,33.6638439,-117.9047429
-likes both,crockett,17,38.0524208,-122.2130236
-likes both,crowley,1,37.6036872,-118.7372922
-likes both,daly city,230,37.6879241,-122.4702079
-likes both,east palo alto,6,37.4688273,-122.1410751
-likes both,edinburgh,1,34.0844282,-118.363337
-likes both,el cerrito,137,37.9161326,-122.310765
-likes both,el granada,11,37.5027185,-122.4694214
-likes both,el sobrante,60,37.9771452,-122.2952474
-likes both,emeryville,295,37.8395028,-122.2892278
-likes both,fairfax,62,37.9871454,-122.5888686
-likes both,fayetteville,1,,
-likes both,forest knolls,1,38.014099,-122.689598
-likes both,foster city,5,37.5585465,-122.2710788
-likes both,fremont,35,37.5485396,-121.988583
-likes both,grand rapids,1,42.8737792,-85.5249328
-likes both,granite bay,1,38.7632345,-121.1638361
-likes both,green brae,37,37.9476326,-122.5252604
-likes both,half moon bay,48,37.4635519,-122.4285862
-likes both,hayward,273,37.6687665,-122.0809964
-likes both,hercules,36,38.0171441,-122.2885808
-likes both,hillsborough,1,37.5741032,-122.3794163
-likes both,kassel,1,34.1779428,-118.6054136
-likes both,kensington,2,37.9104805,-122.2802471
-likes both,kentfield,8,37.9521465,-122.5571997
-likes both,lafayette,66,37.8857582,-122.1180201
-likes both,lagunitas,4,38.0113119,-122.7022085
-likes both,lake orion,1,,
-likes both,larkspur,35,37.9340915,-122.5352539
-likes both,leander,1,,
-likes both,london,1,36.4760619,-119.4431785
-likes both,long beach,2,33.7700504,-118.1937395
-likes both,longwood,1,33.8669836,-118.2036834
-likes both,los angeles,2,34.0522342,-118.2436849
-likes both,los gatos,1,37.2358078,-121.9623751
-likes both,madrid,1,34.2222235,-118.235471
-likes both,marin city,1,37.868538,-122.5091404
-likes both,martinez,141,38.0193657,-122.1341321
-likes both,menlo park,176,37.4529598,-122.1817252
-likes both,mill valley,120,37.9060368,-122.5449763
-likes both,millbrae,49,37.5985468,-122.3871942
-likes both,milpitas,1,37.4323341,-121.8995741
-likes both,montara,5,37.5421617,-122.5160892
-likes both,moraga,38,37.8349263,-122.1296871
-likes both,moss beach,3,37.5274401,-122.5133117
-likes both,mountain view,131,37.3860517,-122.0838511
-likes both,muir beach,1,37.8622625,-122.5787638
-likes both,napa,1,38.2975381,-122.286865
-likes both,new orleans,1,41.3009016,-123.5417933
-likes both,new york,2,33.9928728,-118.1628414
-likes both,north hollywood,1,34.187044,-118.3812562
-likes both,novato,156,38.1074198,-122.5697032
-likes both,oakland,3122,37.8043514,-122.2711639
-likes both,orinda,38,37.8771476,-122.1796888
-likes both,ozone park,1,34.0015705,-118.4720712
-likes both,pacifica,149,37.6138253,-122.4869194
-likes both,palo alto,362,37.4418834,-122.1430195
-likes both,petaluma,1,38.232417,-122.6366524
-likes both,phoenix,1,34.0731137,-118.3758828
-likes both,piedmont,4,37.8244063,-122.2314865
-likes both,pinole,45,38.0043667,-122.2988587
-likes both,pleasant hill,147,37.9479786,-122.0607963
-likes both,point richmond,2,37.9252463,-122.383404
-likes both,port costa,1,38.04630969999999,-122.1833005
-likes both,portland,2,45.5230979,-122.6839761
-likes both,providence,1,33.7384987,-118.3049839
-likes both,redwood city,299,37.4847955,-122.228141
-likes both,richmond,173,37.9357576,-122.3477486
-likes both,riverside,1,33.9806005,-117.3754942
-likes both,rochester,1,34.0916774,-117.5475515
-likes both,rodeo,13,38.032977,-122.2669138
-likes both,rohnert park,1,38.3396367,-122.7010984
-likes both,ross,4,37.9624239,-122.5549775
-likes both,salt lake city,1,34.0216369,-117.9773101
-likes both,san anselmo,59,37.9746458,-122.5616448
-likes both,san antonio,1,38.18389,-122.59028
-likes both,san bruno,106,37.6304904,-122.4110835
-likes both,san carlos,92,37.5071591,-122.2605222
-likes both,san diego,2,32.715738,-117.1610838
-likes both,san francisco,11203,37.7749295,-122.4194155
-likes both,san geronimo,9,38.0132562,-122.6638731
-likes both,san leandro,245,37.7257663,-122.1568554
-likes both,san lorenzo,60,37.6793968,-122.1267054
-likes both,san mateo,505,37.5629917,-122.3255254
-likes both,san pablo,76,37.9621457,-122.3455263
-likes both,san rafael,312,37.9735346,-122.5310874
-likes both,santa ana,1,33.7454725,-117.867653
-likes both,santa cruz,3,36.9741171,-122.0307963
-likes both,santa monica,2,34.0194543,-118.4911912
-likes both,santa rosa,1,38.440429,-122.7140548
-likes both,sausalito,77,37.8590937,-122.4852507
-likes both,seaside,1,36.6149217,-121.822098
-likes both,south lake tahoe,1,38.939926,-119.9771868
-likes both,south san francisco,146,37.654656,-122.4077498
-likes both,south wellfleet,1,,
-likes both,stanford,90,37.42410599999999,-122.1660756
-likes both,stinson beach,1,37.9004816,-122.6444263
-likes both,taunton,1,,
-likes both,tucson,2,32.3268641,-111.0519088
-likes both,union city,1,37.5933562,-122.0438609
-likes both,vallejo,217,38.1040864,-122.2566367
-likes both,walnut creek,248,37.9100783,-122.0651819
-likes both,waterford,1,37.640545,-120.7615808
-likes both,west oakland,4,37.8155761,-122.2839963
-likes both,westlake,2,34.1466467,-118.8073729
-likes both,woodacre,8,38.0127006,-122.645261
-likes both,woodside,5,37.4299388,-122.2538557
-likes cats,alameda,55,37.7798721,-122.2821855
-likes cats,albany,18,37.886704,-122.2977557
-likes cats,atherton,1,37.4613272,-122.197743
-likes cats,belmont,16,37.5202145,-122.2758008
-likes cats,belvedere tiburon,1,37.8727044,-122.4644171
-likes cats,benicia,11,38.049365,-122.1585777
-likes cats,berkeley,247,37.8715226,-122.273042
-likes cats,brisbane,3,37.6807661,-122.3999715
-likes cats,burlingame,11,37.5778696,-122.34809
-likes cats,castro valley,16,37.6955029,-122.0738678
-likes cats,colma,1,37.6749036,-122.4561533
-likes cats,corte madera,4,37.9254806,-122.5274755
-likes cats,daly city,21,37.6879241,-122.4702079
-likes cats,el cerrito,30,37.9161326,-122.310765
-likes cats,el granada,1,37.5027185,-122.4694214
-likes cats,el sobrante,1,37.9771452,-122.2952474
-likes cats,emeryville,43,37.8395028,-122.2892278
-likes cats,fairfax,7,37.9871454,-122.5888686
-likes cats,forest knolls,1,38.014099,-122.689598
-likes cats,foster city,2,37.5585465,-122.2710788
-likes cats,fremont,4,37.5485396,-121.988583
-likes cats,glencove,1,38.0685314,-122.2069126
-likes cats,green brae,2,37.9476326,-122.5252604
-likes cats,half moon bay,6,37.4635519,-122.4285862
-likes cats,hayward,39,37.6687665,-122.0809964
-likes cats,hercules,1,38.0171441,-122.2885808
-likes cats,lafayette,7,37.8857582,-122.1180201
-likes cats,lagunitas,1,38.0113119,-122.7022085
-likes cats,larkspur,5,37.9340915,-122.5352539
-likes cats,martinez,20,38.0193657,-122.1341321
-likes cats,menlo park,24,37.4529598,-122.1817252
-likes cats,miami,1,37.4174836,-119.6286648
-likes cats,mill valley,20,37.9060368,-122.5449763
-likes cats,millbrae,9,37.5985468,-122.3871942
-likes cats,modesto,1,37.6392595,-120.9970014
-likes cats,moraga,3,37.8349263,-122.1296871
-likes cats,mountain view,22,37.3860517,-122.0838511
-likes cats,new york,1,33.9928728,-118.1628414
-likes cats,nicasio,1,38.06170950000001,-122.6991484
-likes cats,novato,18,38.1074198,-122.5697032
-likes cats,oakland,443,37.8043514,-122.2711639
-likes cats,orinda,5,37.8771476,-122.1796888
-likes cats,pacifica,15,37.6138253,-122.4869194
-likes cats,palo alto,57,37.4418834,-122.1430195
-likes cats,pinole,6,38.0043667,-122.2988587
-likes cats,pleasant hill,14,37.9479786,-122.0607963
-likes cats,portland,1,33.6362758,-117.8506783
-likes cats,redwood city,39,37.4847955,-122.228141
-likes cats,richmond,24,37.9357576,-122.3477486
-likes cats,rodeo,1,38.032977,-122.2669138
-likes cats,san anselmo,12,37.9746458,-122.5616448
-likes cats,san bruno,14,37.6304904,-122.4110835
-likes cats,san carlos,10,37.5071591,-122.2605222
-likes cats,san francisco,1214,37.7749295,-122.4194155
-likes cats,san leandro,36,37.7257663,-122.1568554
-likes cats,san lorenzo,12,37.6793968,-122.1267054
-likes cats,san mateo,59,37.5629917,-122.3255254
-likes cats,san pablo,7,37.9621457,-122.3455263
-likes cats,san quentin,1,37.9413246,-122.484704
-likes cats,san rafael,51,37.9735346,-122.5310874
-likes cats,sausalito,10,37.8590937,-122.4852507
-likes cats,south san francisco,15,37.654656,-122.4077498
-likes cats,stanford,11,37.42410599999999,-122.1660756
-likes cats,stinson beach,1,37.9004816,-122.6444263
-likes cats,studio city,1,34.1395597,-118.3870991
-likes cats,vallejo,21,38.1040864,-122.2566367
-likes cats,walnut creek,30,37.9100783,-122.0651819
-likes cats,washington,1,39.3590873,-120.7999351
-likes cats,woodacre,3,38.0127006,-122.645261
-likes dogs,alameda,216,37.7798721,-122.2821855
-likes dogs,albany,36,37.886704,-122.2977557
-likes dogs,ashland,1,37.6947836,-122.1136727
-likes dogs,atherton,15,37.4613272,-122.197743
-likes dogs,austin,1,34.0501575,-118.2532567
-likes dogs,belmont,56,37.5202145,-122.2758008
-likes dogs,belvedere tiburon,15,37.8727044,-122.4644171
-likes dogs,benicia,44,38.049365,-122.1585777
-likes dogs,berkeley,765,37.8715226,-122.273042
-likes dogs,bolinas,1,37.9093702,-122.6863733
-likes dogs,boulder,1,37.12605780000001,-122.1221869
-likes dogs,brisbane,10,37.6807661,-122.3999715
-likes dogs,brooklyn,1,34.21677090000001,-118.3615921
-likes dogs,burlingame,98,37.5778696,-122.34809
-likes dogs,canyon country,1,34.4235425,-118.4720633
-likes dogs,castro valley,76,37.6955029,-122.0738678
-likes dogs,colma,1,37.6749036,-122.4561533
-likes dogs,corte madera,24,37.9254806,-122.5274755
-likes dogs,crockett,9,38.0524208,-122.2130236
-likes dogs,daly city,141,37.6879241,-122.4702079
-likes dogs,east palo alto,3,37.4688273,-122.1410751
-likes dogs,el cerrito,59,37.9161326,-122.310765
-likes dogs,el granada,5,37.5027185,-122.4694214
-likes dogs,el sobrante,37,37.9771452,-122.2952474
-likes dogs,emeryville,177,37.8395028,-122.2892278
-likes dogs,fairfax,18,37.9871454,-122.5888686
-likes dogs,foster city,12,37.5585465,-122.2710788
-likes dogs,fremont,30,37.5485396,-121.988583
-likes dogs,green brae,17,37.9476326,-122.5252604
-likes dogs,hacienda heights,1,33.9930677,-117.9686755
-likes dogs,half moon bay,21,37.4635519,-122.4285862
-likes dogs,hayward,187,37.6687665,-122.0809964
-likes dogs,hercules,42,38.0171441,-122.2885808
-likes dogs,hilarita,1,37.884093,-122.4719173
-likes dogs,hillsborough,2,37.5741032,-122.3794163
-likes dogs,honolulu,1,33.992764,-118.124664
-likes dogs,irvine,1,33.6845673,-117.8265049
-likes dogs,kansas city,1,33.815414,-118.3275978
-likes dogs,kentfield,4,37.9521465,-122.5571997
-likes dogs,lafayette,43,37.8857582,-122.1180201
-likes dogs,lagunitas,2,38.0113119,-122.7022085
-likes dogs,larkspur,20,37.9340915,-122.5352539
-likes dogs,las vegas,1,33.7461244,-117.8411414
-likes dogs,los angeles,2,34.0522342,-118.2436849
-likes dogs,martinez,61,38.0193657,-122.1341321
-likes dogs,menlo park,112,37.4529598,-122.1817252
-likes dogs,mill valley,78,37.9060368,-122.5449763
-likes dogs,millbrae,37,37.5985468,-122.3871942
-likes dogs,minneapolis,1,45.010592,-93.268463
-likes dogs,montara,5,37.5421617,-122.5160892
-likes dogs,moraga,23,37.8349263,-122.1296871
-likes dogs,moss beach,4,37.5274401,-122.5133117
-likes dogs,mountain view,81,37.3860517,-122.0838511
-likes dogs,murfreesboro,1,35.9175267,-86.5004406
-likes dogs,napa,1,38.2975381,-122.286865
-likes dogs,nevada city,1,39.2615606,-121.0160594
-likes dogs,new york,3,33.9928728,-118.1628414
-likes dogs,nha trang,1,12.248166,109.1957103
-likes dogs,nicasio,1,38.06170950000001,-122.6991484
-likes dogs,novato,75,38.1074198,-122.5697032
-likes dogs,oakland,1482,37.8043514,-122.2711639
-likes dogs,oceanview,1,33.71557320000001,-117.9886707
-likes dogs,orange,1,33.7879139,-117.8531007
-likes dogs,orinda,13,37.8771476,-122.1796888
-likes dogs,pacheco,1,37.9854114,-122.0720633
-likes dogs,pacifica,84,37.6138253,-122.4869194
-likes dogs,palo alto,248,37.4418834,-122.1430195
-likes dogs,pasadena,1,34.1477849,-118.1445155
-likes dogs,petaluma,1,38.232417,-122.6366524
-likes dogs,piedmont,1,37.8244063,-122.2314865
-likes dogs,pinole,24,38.0043667,-122.2988587
-likes dogs,pleasant hill,87,37.9479786,-122.0607963
-likes dogs,point richmond,1,37.9252463,-122.383404
-likes dogs,redwood city,145,37.4847955,-122.228141
-likes dogs,richmond,114,37.9357576,-122.3477486
-likes dogs,rodeo,13,38.032977,-122.2669138
-likes dogs,ross,5,37.9624239,-122.5549775
-likes dogs,salt lake city,1,34.0192925,-117.9695884
-likes dogs,san anselmo,31,37.9746458,-122.5616448
-likes dogs,san bruno,71,37.6304904,-122.4110835
-likes dogs,san carlos,54,37.5071591,-122.2605222
-likes dogs,san francisco,7627,37.7749295,-122.4194155
-likes dogs,san jose,1,37.3382082,-121.8863286
-likes dogs,san leandro,164,37.7257663,-122.1568554
-likes dogs,san lorenzo,26,37.6793968,-122.1267054
-likes dogs,san luis obispo,1,35.2827524,-120.6596156
-likes dogs,san mateo,303,37.5629917,-122.3255254
-likes dogs,san pablo,52,37.9621457,-122.3455263
-likes dogs,san rafael,162,37.9735346,-122.5310874
-likes dogs,santa cruz,1,36.9741171,-122.0307963
-likes dogs,santa rosa,1,38.440429,-122.7140548
-likes dogs,sausalito,41,37.8590937,-122.4852507
-likes dogs,south orange,1,33.7871702,-117.8887239
-likes dogs,south san francisco,102,37.654656,-122.4077498
-likes dogs,stanford,63,37.42410599999999,-122.1660756
-likes dogs,stockton,1,37.9577016,-121.2907796
-likes dogs,sunnyvale,1,37.36883,-122.0363496
-likes dogs,tiburon,2,37.8735377,-122.4566392
-likes dogs,vacaville,1,38.3565773,-121.9877444
-likes dogs,vallejo,159,38.1040864,-122.2566367
-likes dogs,walnut creek,155,37.9100783,-122.0651819
-likes dogs,west oakland,1,37.8155761,-122.2839963
-likes dogs,westlake,3,34.1466467,-118.8073729
-likes dogs,woodacre,2,38.0127006,-122.645261
-likes dogs,woodside,5,37.4299388,-122.2538557
-other,alameda,7,37.7798721,-122.2821855
-other,albany,2,37.886704,-122.2977557
-other,belmont,1,37.5202145,-122.2758008
-other,benicia,1,38.049365,-122.1585777
-other,berkeley,29,37.8715226,-122.273042
-other,burlingame,1,37.5778696,-122.34809
-other,cancer and it&rsquo;s fun to think about,1,,
-other,castro valley,1,37.6955029,-122.0738678
-other,daly city,3,37.6879241,-122.4702079
-other,el cerrito,3,37.9161326,-122.310765
-other,el sobrante,1,37.9771452,-122.2952474
-other,emeryville,5,37.8395028,-122.2892278
-other,half moon bay,1,37.4635519,-122.4285862
-other,hayward,6,37.6687665,-122.0809964
-other,larkspur,1,37.9340915,-122.5352539
-other,martinez,1,38.0193657,-122.1341321
-other,menlo park,3,37.4529598,-122.1817252
-other,mill valley,2,37.9060368,-122.5449763
-other,millbrae,1,37.5985468,-122.3871942
-other,mountain view,7,37.3860517,-122.0838511
-other,oakland,39,37.8043514,-122.2711639
-other,orinda,1,37.8771476,-122.1796888
-other,pacifica,1,37.6138253,-122.4869194
-other,palo alto,7,37.4418834,-122.1430195
-other,pleasant hill,5,37.9479786,-122.0607963
-other,redwood city,4,37.4847955,-122.228141
-other,richmond,1,37.9357576,-122.3477486
-other,rodeo,1,38.032977,-122.2669138
-other,san bruno,2,37.6304904,-122.4110835
-other,san carlos,2,37.5071591,-122.2605222
-other,san diego,1,32.715738,-117.1610838
-other,san francisco,183,37.7749295,-122.4194155
-other,san leandro,8,37.7257663,-122.1568554
-other,san lorenzo,2,37.6793968,-122.1267054
-other,san mateo,8,37.5629917,-122.3255254
-other,san pablo,2,37.9621457,-122.3455263
-other,san rafael,2,37.9735346,-122.5310874
-other,sausalito,1,37.8590937,-122.4852507
-other,south san francisco,3,37.654656,-122.4077498
-other,stanford,6,37.42410599999999,-122.1660756
-other,vallejo,4,38.1040864,-122.2566367
-other,walnut creek,3,37.9100783,-122.0651819
->>>>>>> 6ac1663017774787476a4e9804208b1b4e48e39a

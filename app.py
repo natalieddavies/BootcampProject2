@@ -5,13 +5,13 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 from flask_cors import CORS
 
 
 #############################################################################
 ##DATABASE SET UP
-engine = create_engine('postgresql://postgres:Emzy3314@localhost/DogsandCats')
+engine = create_engine('postgresql://postgres:postgres@localhost/DogsandCats')
 conn = engine.connect()
 
 ##Flask Setup
@@ -42,7 +42,7 @@ def starsigns():
 ##Create Landing page
 @app.route("/")
 def home():
-    return "/jobs for jobs, /latlong for locations, /starsigns for starsigns"    
+    return render_template("markermap.html")  
 
 ##Flask Route for lat/long both cats and dogs
 @app.route("/both")
