@@ -18,7 +18,7 @@ d3.json(url).then(function(likesBoth) {
           color: "green",
           fillColor: "green",
           radius: markerSize(likesBoth[i].count),
-          radius:10;
+          radius:10,
     }));
   };
 //////////////////heres your long green line //////////////////////////////////////////////////////////////////////////////////////////////////////////////

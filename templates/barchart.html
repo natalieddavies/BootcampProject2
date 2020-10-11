@@ -1,14 +1,15 @@
-<!DOCTYPE html>
+
+​<!-- Landing Page [1] -->
+<!doctype html>
 <html lang="en">
-​
+
 <head>
   <meta charset="utf-8">
-  <title>Basic Map</title>
-​
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -25,100 +26,139 @@
     </head>
     <title>tHINK OF A TITLE</title>
   </head>
-  
-  <body>
-      <canvas id="chart" width="400" height ="400"></canvas>
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-          
-          <script>
-              const api_url = "http://127.0.0.1:5000/jobs";
-              window.addEventListener('load', setup);
-              async function setup() {
-                const ctx = document.getElementById('bar').getContext('2d');
-                const dataPromisejobs = await getData();
-                const myBarChart = new Chart(ctx, {
-                    type: 'bar',
-                    data:{
-                        labels:dataPromisejobs.jobs,
-                        datasets: [
-                            {
-                                label: 
-                            }
-                        ]
-                        });
-                }
 
-                async function getData() {
-                    const response = await fetch(api_url);
-                    const data = await response.json()
-                    const jobs = [];
-                    const count = [];
-                    const pets = [];
-              
-              
-                
-                
-                
-                
-
-              
-          </script>
-          
-          <div class="navigation">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <a class="navbar-brand" href="index.html">OkCupid</a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                      <ul class="navbar-nav ml-auto">
-                          <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Plots
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="markermap.html">Marker Map</a>
+<body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <div class="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">OkCupid</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="http://127.0.0.1:5000/">Marker Map</a>
                                 <a class="dropdown-item" href="barchart.html">Bar Chart</a>
                                 <a class="dropdown-item" href="piechart.html"> Pie Chart</a>
-                              </div>
-                          </li>
-                      </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              DATA
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <a class="dropdown-item" href="data.html">Job</a>
-                              <a class="dropdown-item" href="data2.html">Location</a>
-                              <a class="dropdown-item" href="data3.html">Starsign</a>
-                          </div>
-                          <li class="nav-item">
-                          <a class="nav-link" href="data.html">Click for a secret...</a>
-                      </li>
-                      </li>
-                  </ul>
-              </div>
-          </nav>
-      </div>
-
-      <!-- The div where we will inject our map -->
-    <div id="bar" class="map">
-        <p>content</p>
-        <canvas id="myChart" width="400" height="400"></canvas>
+                            </div>
+                        </li>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            DATA
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="data.html">Job</a>
+                            <a class="dropdown-item" href="data2.html">Location</a>
+                            <a class="dropdown-item" href="data3.html">Starsign</a>
+                        </div>
+                        <li class="nav-item">
+                        <a class="nav-link" href="data.html">Click for a secret...</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-  ​
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-      crossorigin=""></script>
-    <!-- API key -->
-    <script type="text/javascript" src="map/config.js"></script>
-    <!-- JS -->
-    <script type="text/javascript" src="Bar.js"></script>
-</body>
+    <canvas id="chart" width="400" height ="400"></canvas>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script>
+        const api_url = "http://127.0.0.1:5000/jobs";
+        window.addEventListener('load', setup);
+        async function setup() {
+          const ctx = document.getElementById('bar').getContext('2d');
+          const dataPromisejobs = await getData();
+          const myBarChart = new Chart(ctx, {
+              type: 'bar',
+              data:{
+                  labels:dataPromisejobs.jobs,
+                  datasets: [
+                      {
+                          label: 
+                      }
+                  ]
+                  });
+          }
+
+          async function getData() {
+              const response = await fetch(api_url);
+              const data = await response.json()
+              const jobs = [];
+              const count = [];
+              const pets = [];
+        
+        
+          
+          
+          
+          
+
+        
+    </script>
+    
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">OkCupid</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="markermap.html">Marker Map</a>
+                          <a class="dropdown-item" href="barchart.html">Bar Chart</a>
+                          <a class="dropdown-item" href="piechart.html"> Pie Chart</a>
+                        </div>
+                    </li>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        DATA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="data.html">Job</a>
+                        <a class="dropdown-item" href="data2.html">Location</a>
+                        <a class="dropdown-item" href="data3.html">Starsign</a>
+                    </div>
+                    <li class="nav-item">
+                    <a class="nav-link" href="data.html">Click for a secret...</a>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!-- The div where we will inject our map -->
+<div id="bar" class="map">
+  <p>content</p>
+  <canvas id="myChart" width="400" height="400"></canvas>
+</div>
 ​
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+crossorigin=""></script>
+<!-- API key -->
+<script type="text/javascript" src="map/config.js"></script>
+<!-- JS -->
+<script type="text/javascript" src="Bar.js"></script>
+</body>
+     
 <section>
     <footer>
         <p>Emily Shute | Madeleine Spencer | Natalie Davies</p>
