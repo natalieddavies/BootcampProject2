@@ -1,15 +1,15 @@
 // BAR CHARTS
 // Read in data from API 'jobs'
-// url = "http://127.0.0.1:5000/jobs"
-// d3.json(url).then(function(response) {
-//   console.log(response);
-// });
+url = "http://127.0.0.1:5000/jobs"
+d3.json(url).then(function(response) {
+  console.log(response);
+});
 
 
 
-// // return data promise and save 
-// const dataPromisejobs = d3.json(url);
-// console.log("Data Promise: ", dataPromisejobs);
+//  return data promise and save 
+ const dataPromisejobs = d3.json(url);
+ console.log("Data Promise: ", dataPromisejobs);
 
 
 var ctx = document.getElementById('chart').getContext('2d');
