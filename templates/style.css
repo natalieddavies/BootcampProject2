@@ -1,15 +1,12 @@
 /* 
 CSS Style Sheet 
 */
-
 h1 {
     color:navy;
 }
-
 h3 {
     background-color: white;
 }
-
 * {
     font-family: Courier, monospace;
 }
@@ -71,124 +68,6 @@ body {
     border-color:#EDC2D8FF;
   }
 
-/* SLIDER */
-.SLIDER {
-    height: 400px;
-    width: 570PX;
-    padding: 25px 25px 25px 25px;
-    float:right;
-    border-radius: 25px;
-    background-color:#FCF6F5FF;
-    border-style: solid;
-    border-color:#EDC2D8FF;
-    margin:30px;
-    vertical-align: middle;
-    border-collapse: separate;
-    margin-right: 20px;
-} 
-
-/* Media Queries */
-@media(max-width: 992px) {
-    .navbar-expand-lg {
-    background-color: #000000;
-    }
-    .navbar {
-      max-height: none;
-      padding: inherit;
-    }
-    .navbar div {
-      margin: inherit;
-      background-color: white;
-    }
-    .navbar-brand {
-      padding: 10px;
-    }
-    button{
-      margin-right: 30px;
-    }
-    button:focus {
-      outline: 1px dotted;
-      outline: auto 5px;
-    }
-  }
-
-  
-  .showSlide {  
-    display: none  
-}  
-    .showSlide img {  
-        width: 70%;
-        position: absolute;
-        margin: auto;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 400;
-    }  
-    
-.slidercontainer {  
-    max-width: 1000px;  
-    position: relative;  
-    margin: auto;  
-}  
-
-.left, .right {  
-    cursor: pointer;  
-    position: absolute;   
-    /* WILL HAVE TO PLAY WITH THIS
- */
-    top: 0%;  
-    width: auto;  
-    padding: 10px;  
-    margin-top: -22px;  
-    color:  #8ABAD3FF;  
-    font-weight: bold;  
-    font-size: 18px;  
-    transition: 0.6s ease;  
-}  
-.right {  
-    right: 0;  
-    border-radius: 25px;  
-}  
-    .left:hover, .right:hover {  
-        color:  #EDC2D8FF;
-    }  
-.content {  
-    color: black;  
-    font-size: 30px;  
-    padding: 8px 12px;  
-    position: absolute;  
-    top: 10px;  
-    width: 100%;  
-}  
-.active {  
-    background-color: #717171;  
-}  
-/* Fading animation */  
-.fade {  
-    -webkit-animation-name: fade;  
-    -webkit-animation-duration: 1.5s;  
-    animation-name: fade;  
-    animation-duration: 1.5s;  
-}  
-@-webkit-keyframes fade {  
-    from {  
-        opacity: .4  
-    }  
-    to {  
-        opacity: 1  
-    }  
-}  
-
-@keyframes fade {  
-    from {  
-        opacity: .4  
-    }  
-    to {  
-        opacity: 1  
-    }  
-}  
-
   /* Footer */
   footer {
   background-color: #FCF6F5FF;
@@ -220,3 +99,122 @@ body,
 html {
   height: 100%;
 }
+
+
+/* THIS IS FOR THE INDEX.JS FOR THE INDEX.HTML WHICH ALLOWS THE SLIDER OF OUR VISUALISATIONS TO WORK */
+/* SLIDER */
+.SLIDER {
+  height: 400px;
+  width: 570PX;
+  padding: 25px 25px 25px 25px;
+  float:right;
+  border-radius: 25px;
+  background-color:#FCF6F5FF;
+  border-style: solid;
+  border-color:#EDC2D8FF;
+  margin:30px;
+  vertical-align: middle;
+  border-collapse: separate;
+  margin-right: 20px;
+} 
+
+/* THIS IS FOR THE INDEX.JS FOR THE INDEX.HTML WHICH ALLOWS THE SLIDER OF OUR VISUALISATIONS TO WORK */
+/* Media Queries */
+@media(max-width: 992px) {
+  .navbar-expand-lg {
+  background-color: #000000;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: white;
+  }
+  .navbar-brand {
+    padding: 10px;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}
+
+
+.showSlide {  
+  display: none  
+}  
+  .showSlide img {  
+    height: 100%;
+    width: 100%;
+    padding: 25px 25px 25px 25px;
+    margin: auto;
+  }  
+  
+.slidercontainer {  
+  max-width: 1000px;  
+  position: relative;  
+  margin: auto;  
+}  
+
+.left, .right {  
+  cursor: pointer;  
+  position: absolute;   
+  /* WILL HAVE TO PLAY WITH THIS
+*/
+  top: 0%;  
+  width: auto;  
+  padding: 10px;  
+  margin-top: -22px;  
+  color:  #8ABAD3FF;  
+  font-weight: bold;  
+  font-size: 18px;  
+  transition: 0.6s ease;  
+}  
+.right {  
+  right: 0;  
+  border-radius: 25px;  
+}  
+  .left:hover, .right:hover {  
+      color:  #EDC2D8FF;
+  }  
+.content {  
+  color: black;  
+  font-size: 30px;  
+  padding: 8px 12px;  
+  position: absolute;  
+  top: 10px;  
+  width: 100%;  
+}  
+.active {  
+  background-color: #717171;  
+}  
+/* THIS IS FOR THE INDEX.JS FOR THE INDEX.HTML WHICH ALLOWS THE SLIDER OF OUR VISUALISATIONS TO WORK */
+.fade {  
+  -webkit-animation-name: fade;  
+  -webkit-animation-duration: 1.5s;  
+  animation-name: fade;  
+  /* animation-duration: 1.5s;   */
+}  
+@-webkit-keyframes fade {  
+  from {  
+      opacity: .4  
+  }  
+  to {  
+      opacity: 1  
+  }  
+}  
+
+@keyframes fade {  
+  from {  
+      opacity: .4  
+  }  
+  to {  
+      opacity: 1  
+  }  
+}  
+/* ABOVE IS FOR THE INDEX.JS FOR THE INDEX.HTML WHICH ALLOWS THE SLIDER OF OUR VISUALISATIONS TO WORK */
