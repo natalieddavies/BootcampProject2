@@ -30,11 +30,6 @@ body {
     margin-right: auto;
 }
 
-/* top padding is 25px
-right padding is 50px
-bottom padding is 75px
-left padding is 100px */
-
 /* INTRO */
 .INTRO {
     height: 400px;
@@ -50,6 +45,19 @@ left padding is 100px */
     border-collapse: separate;
     flex: 1;
   }
+
+.2 {
+  height: 500px;
+  width: 500PX;
+  float: left;
+  margin:30px;
+  background-color:#FCF6F5FF;
+  border-color:#EDC2D8FF;
+  border-width: 5px;
+  vertical-align: middle;
+  border-collapse: separate;
+  flex: 1;
+}
 
 /* TABLE */
   .table {
@@ -68,17 +76,11 @@ left padding is 100px */
 
 /* HEATMAP */
 .map {
-    height: 400px;
-    width: 1000PX;
+    height: fit-content;
+    width: fit-content;
     border-radius: 25px;
-    margin:30px;
-    padding: 25px 25px 25px 25px;
-    background-color:#FCF6F5FF;
     border-style: solid;
     border-color:#EDC2D8FF;
-    vertical-align: middle;
-    border-collapse: separate;
-    flex: 1;
   }
 
 /* SLIDER */
@@ -98,21 +100,6 @@ left padding is 100px */
 } 
 
 }
-
-/* INTRO */
-.2 {
-    height: 500px;
-    width: 500PX;
-    float: left;
-    margin:30px;
-    background-color:#FCF6F5FF;
-    border-color:#EDC2D8FF;
-    border-width: 5px;
-    vertical-align: middle;
-    border-collapse: separate;
-    flex: 1;
-  }
-
 
 /* Media Queries */
 @media(max-width: 992px) {
