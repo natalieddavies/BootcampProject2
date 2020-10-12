@@ -12,6 +12,7 @@ Questions:
 - Who has the higher education? 
 - Multilingual?
 - Most common jobs for both
+- 
 - Who is the tallest? 
 - Most common religion
 

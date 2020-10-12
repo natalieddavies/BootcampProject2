@@ -1,6 +1,6 @@
 // Function to determine cat marker size based number of people who like cats
 function markerSize (marker) {
-  return marker * 100;
+  return marker;
 }
 
 // LIKEEEEEEEEEEEEES BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTH
@@ -18,7 +18,6 @@ d3.json(url).then(function(likesBoth) {
           color: "green",
           fillColor: "green",
           radius: markerSize(likesBoth[i].count),
-          radius:10,
     }));
   };
 //////////////////heres your long green line //////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -87,7 +86,7 @@ var cats = L.layerGroup(likesCatsMarkers);
 var dogs = L.layerGroup(likesDogsMarkers);
 var myMap = L.map("map", {
   center: [37.7749, -122.4194],
-  zoom: 15,
+  zoom: 2,
   layers: [streetmap, both, cats, dogs]
 });
 

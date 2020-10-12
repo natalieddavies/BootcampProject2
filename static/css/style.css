@@ -3,220 +3,222 @@ CSS Style Sheet
 */
 
 h1 {
-    color:navy;
+  color:navy;
 }
 
 h3 {
-    background-color: white;
+  background-color: white;
 }
 
 * {
-    font-family: Courier, monospace;
+  font-family: Courier, monospace;
 }
-  
+
 /* BODY */
 body {
-    background-image: url("https://reputation-communications.com/wp-content/uploads/2019/09/social-media-3846597_1280-800x504.png");
-    height: auto;
-    background-position: center;
-    width:auto;
-    background-repeat: repeat;
-    background-size: auto;
-  }
+  background-image: url("https://reputation-communications.com/wp-content/uploads/2019/09/social-media-3846597_1280-800x504.png");
+  height: auto;
+  background-position: center;
+  width:auto;
+  background-repeat: repeat;
+  background-size: auto;
+}
 
- .flex-container {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+.flex-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* INTRO */
 .INTRO {
-    height: 400px;
-    width: 550PX;
-    float: left;
-    border-radius: 25px;
-    margin:30px;
-    padding: 25px 25px 25px 25px;
-    background-color:#FCF6F5FF;
-    border-style: solid;
-    border-color:#EDC2D8FF;
-    vertical-align: middle;
-    border-collapse: separate;
-    flex: 1;
-  }
+  height: 400px;
+  width: 550PX;
+  float: left;
+  border-radius: 25px;
+  margin:30px;
+  padding: 25px 25px 25px 25px;
+  background-color:#FCF6F5FF;
+  border-style: solid;
+  border-color:#EDC2D8FF;
+  vertical-align: middle;
+  border-collapse: separate;
+  flex: 1;
+}
 
 
 /* TABLE */
-  .table {
-    height: 400px;
-    width: 1000PX;
-    border-radius: 25px;
-    margin:30px;
-    padding: 25px 25px 25px 25px;
-    background-color:#FCF6F5FF;
-    border-style: solid;
-    border-color:#EDC2D8FF;
-    vertical-align: middle;
-    border-collapse: separate;
-    flex: 1;
-  }
+.table {
+  height: 400px;
+  width: 1000PX;
+  border-radius: 25px;
+  margin:30px;
+  padding: 25px 25px 25px 25px;
+  background-color:#FCF6F5FF;
+  border-style: solid;
+  border-color:#EDC2D8FF;
+  vertical-align: middle;
+  border-collapse: separate;
+  flex: 1;
+}
 
 /* HEATMAP */
 .map {
-    height: fit-content;
-    width: fit-content;
-    border-radius: 25px;
-    border-style: solid;
-    border-color:#EDC2D8FF;
-  }
+  height: fit-content;
+  width: 1000px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color:#EDC2D8FF;
+}
+
+
+/* set map, body, and html to 100% of the screen size
+#map,
+body,
+html {
+height: 100%;
+width: 1000px;
+} */
 
 /* SLIDER */
 .SLIDER {
-    height: 400px;
-    width: 570PX;
-    padding: 25px 25px 25px 25px;
-    float:right;
-    border-radius: 25px;
-    background-color:#FCF6F5FF;
-    border-style: solid;
-    border-color:#EDC2D8FF;
-    margin:30px;
-    vertical-align: middle;
-    border-collapse: separate;
-    margin-right: 20px;
+  height: 400px;
+  width: 570PX;
+  padding: 25px 25px 25px 25px;
+  float:right;
+  border-radius: 25px;
+  background-color:#FCF6F5FF;
+  border-style: solid;
+  border-color:#EDC2D8FF;
+  margin:30px;
+  vertical-align: middle;
+  border-collapse: separate;
+  margin-right: 20px;
 } 
 
 /* Media Queries */
 @media(max-width: 992px) {
-    .navbar-expand-lg {
-    background-color: #000000;
-    }
-    .navbar {
-      max-height: none;
-      padding: inherit;
-    }
-    .navbar div {
-      margin: inherit;
-      background-color: white;
-    }
-    .navbar-brand {
-      padding: 10px;
-    }
-    button{
-      margin-right: 30px;
-    }
-    button:focus {
-      outline: 1px dotted;
-      outline: auto 5px;
-    }
+  .navbar-expand-lg {
+  background-color: #000000;
   }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: white;
+  }
+  .navbar-brand {
+    padding: 10px;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}
 
-  
-  .showSlide {  
-    display: none  
+
+.showSlide {  
+  display: none  
 }  
-    .showSlide img {  
-        width: 70%;
-        position: absolute;
-        margin: auto;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 400;
-    }  
-    
+  .showSlide img {  
+      width: 70%;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 400;
+  }  
+  
 .slidercontainer {  
-    max-width: 1000px;  
-    position: relative;  
-    margin: auto;  
+  max-width: 1000px;  
+  position: relative;  
+  margin: auto;  
 }  
 
 .left, .right {  
-    cursor: pointer;  
-    position: absolute;   
-    /* WILL HAVE TO PLAY WITH THIS
- */
-    top: 0%;  
-    width: auto;  
-    padding: 10px;  
-    margin-top: -22px;  
-    color:  #8ABAD3FF;  
-    font-weight: bold;  
-    font-size: 18px;  
-    transition: 0.6s ease;  
+  cursor: pointer;  
+  position: absolute;   
+  /* WILL HAVE TO PLAY WITH THIS
+*/
+  top: 0%;  
+  width: auto;  
+  padding: 10px;  
+  margin-top: -22px;  
+  color:  #8ABAD3FF;  
+  font-weight: bold;  
+  font-size: 18px;  
+  transition: 0.6s ease;  
 }  
 .right {  
-    right: 0;  
-    border-radius: 25px;  
+  right: 0;  
+  border-radius: 25px;  
 }  
-    .left:hover, .right:hover {  
-        color:  #EDC2D8FF;
-    }  
+  .left:hover, .right:hover {  
+      color:  #EDC2D8FF;
+  }  
 .content {  
-    color: black;  
-    font-size: 30px;  
-    padding: 8px 12px;  
-    position: absolute;  
-    top: 10px;  
-    width: 100%;  
+  color: black;  
+  font-size: 30px;  
+  padding: 8px 12px;  
+  position: absolute;  
+  top: 10px;  
+  width: 100%;  
 }  
 .active {  
-    background-color: #717171;  
+  background-color: #717171;  
 }  
 /* Fading animation */  
 .fade {  
-    -webkit-animation-name: fade;  
-    -webkit-animation-duration: 1.5s;  
-    animation-name: fade;  
-    animation-duration: 1.5s;  
+  -webkit-animation-name: fade;  
+  -webkit-animation-duration: 1.5s;  
+  animation-name: fade;  
+  animation-duration: 1.5s;  
 }  
 @-webkit-keyframes fade {  
-    from {  
-        opacity: .4  
-    }  
-    to {  
-        opacity: 1  
-    }  
+  from {  
+      opacity: .4  
+  }  
+  to {  
+      opacity: 1  
+  }  
 }  
 
 @keyframes fade {  
-    from {  
-        opacity: .4  
-    }  
-    to {  
-        opacity: 1  
-    }  
+  from {  
+      opacity: .4  
+  }  
+  to {  
+      opacity: 1  
+  }  
 }  
 
-  /* Footer */
-  footer {
-  background-color: #FCF6F5FF;
-  border-top-style: solid;
-  border-top-width: 5px;
-  border-top-color: #EDC2D8FF;
-  color:#8ABAD3FF;
-  min-height: 50px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 15px;
-  text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding-top: 15px;
-  height: 0;
-  }
+/* Footer */
+footer {
+background-color: #FCF6F5FF;
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: #EDC2D8FF;
+color:#8ABAD3FF;
+min-height: 50px;
+font-family: 'Nunito', sans-serif;
+font-size: 15px;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 15px;
+height: 0;
+}
 
 /* remove default margin and padding from body */
 body {
-  padding: 0;
-  margin: 0;
-}
-
-/* set map, body, and html to 100% of the screen size */
-#map,
-body,
-html {
-  height: 100%;
+padding: 0;
+margin: 0;
 }
