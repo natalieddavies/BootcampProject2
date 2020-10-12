@@ -27,17 +27,6 @@ var data = {
 var myRadarChart = new Chart(ctx, {
     type: 'radar',
     data: data,
-<<<<<<< HEAD
-    options = {
-    scale: {
-        angleLines: {
-            display: false
-        },
-        ticks: {
-            suggestedMin: 50,
-            suggestedMax: 100
-            }
-=======
     options: {
         barValueSpacing: 20,
         scales: {
@@ -46,7 +35,6 @@ var myRadarChart = new Chart(ctx, {
                     min: 0,
                 }
             }]
->>>>>>> 31765051b0695405b066a74460b453545965ab3e
         }
     }
 });

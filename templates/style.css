@@ -47,6 +47,11 @@ body {
     background-color: white;
   }
 
+  .chart {
+    background-color: white;
+    font-family: Courier, monospace;
+  }
+
 /* TABLE */
   .table {
     height: 400px;
@@ -61,6 +66,20 @@ body {
     border-collapse: separate;
     flex: 1;
   }
+
+.chartsizingdiv {
+  height: 700px;
+  width: 700px;
+  border-radius: 25px;
+  margin:30px;
+  padding: 25px 25px 25px 25px;
+  background-color:#FCF6F5FF;
+  border-style: solid;
+  border-color:#EDC2D8FF;
+  vertical-align: middle;
+  border-collapse: separate;
+  flex: 1;
+}
 
 /* HEATMAP */
 .map {
@@ -200,8 +219,8 @@ html {
 .fade {  
   /* -webkit-animation-name: fade;   */
   /* -webkit-animation-duration: 1.5s;   */
-  animation-name: fade;  
-  animation-duration: 1.5s;
+  /* animation-name: fade;  
+  animation-duration: 1.5s; */
 }  
 @-webkit-keyframes fade {  
   from {  
