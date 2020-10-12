@@ -15,8 +15,8 @@ d3.json(url).then(function(likesBoth) {
         L.circle([likesBoth[i].lat,likesBoth[i].lng], {
           stroke: false,
           fillOpacity: 0.75,
-          color: "green",
-          fillColor: "green",
+          color: "seagreen",
+          fillColor: "seagreen",
           radius: markerSize(likesBoth[i].count),
     }));
   };
@@ -35,8 +35,8 @@ console.log([likesCats[0].lat,likesCats[0].lng]);
         L.circle([likesCats[i].lat,likesCats[i].lng], {
           stroke: false,
           fillOpacity: 0.75,
-          color: "black",
-          fillColor: "black",
+          color: "coral",
+          fillColor: "coral",
           radius: markerSize(likesCats[i].count),
     }));
   };
@@ -86,7 +86,7 @@ var cats = L.layerGroup(likesCatsMarkers);
 var dogs = L.layerGroup(likesDogsMarkers);
 var myMap = L.map("map", {
   center: [37.7749, -122.4194],
-  zoom: 15,
+  zoom: 8,
   layers: [streetmap, both, cats, dogs]
 });
 
