@@ -11,7 +11,7 @@ from flask_cors import CORS
 
 #############################################################################
 ##DATABASE SET UP
-engine = create_engine('postgresql://postgres:postgres@localhost/DogsandCats')
+engine = create_engine('postgresql://postgres:Emzy3314@localhost/DogsandCats')
 conn = engine.connect()
 
 ##Flask Setup

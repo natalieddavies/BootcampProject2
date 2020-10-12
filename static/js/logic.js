@@ -27,9 +27,12 @@ d3.json(url).then(function(likesBoth) {
 url = "/cats"
 d3.json(url).then(function(likesCats) {
   var likesCatsMarkers = [];
-console.log([likesCats[0].lat,likesCats[0].lng]);
+//console.log(likesCats.lng);
+//console.log(test);
 // Loop through locations and city markers
+console.log(likesCats.length);
     for (var i = 0; i < likesCats.length; i++) {
+     
   // Setting the marker radius for the both by passing count for likes both into the markerSize function
       likesCatsMarkers.push(
         L.circle([likesCats[i].lat,likesCats[i].lng], {
