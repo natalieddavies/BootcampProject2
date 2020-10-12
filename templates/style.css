@@ -43,6 +43,9 @@ body {
     flex: 1;
   }
 
+  .radar {
+    background-color: white;
+  }
 
 /* TABLE */
   .table {
