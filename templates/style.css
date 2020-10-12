@@ -139,8 +139,6 @@ html {
   border-collapse: separate;
   margin-right: 20px;
 } 
-
-/* THIS IS FOR THE INDEX.JS FOR THE INDEX.HTML WHICH ALLOWS THE SLIDER OF OUR VISUALISATIONS TO WORK */
 /* Media Queries */
 @media(max-width: 992px) {
   .navbar-expand-lg {
@@ -166,14 +164,13 @@ html {
   }
 }
 
-
 .showSlide {  
   display: none  
 }  
   .showSlide img {  
-    height: 100%;
-    width: 100%;
-    padding: 25px 25px 25px 25px;
+    height: 105%;
+    width: 105%;
+    border-radius: 25px;
     margin: auto;
   }  
   
@@ -186,8 +183,6 @@ html {
 .left, .right {  
   cursor: pointer;  
   position: absolute;   
-  /* WILL HAVE TO PLAY WITH THIS
-*/
   top: 0%;  
   width: auto;  
   padding: 10px;  
@@ -218,13 +213,13 @@ html {
 /* THIS IS FOR THE INDEX.JS FOR THE INDEX.HTML WHICH ALLOWS THE SLIDER OF OUR VISUALISATIONS TO WORK */
 .fade {  
   -webkit-animation-name: fade; 
-  -webkit-animation-duration: 1.5s;  
+  -webkit-animation-duration: 100s;  
   animation-name: fade;  
-  animation-duration: 1.5s;
+  animation-duration: 100s;
 }  
 @-webkit-keyframes fade {  
   from {  
-      opacity: .4  
+      opacity: 1  
   }  
   to {  
       opacity: 1  
@@ -233,7 +228,7 @@ html {
 
 @keyframes fade {  
   from {  
-      opacity: .4  
+      opacity: 1  
   }  
   to {  
       opacity: 1  

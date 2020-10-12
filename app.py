@@ -9,17 +9,8 @@ from flask import Flask, jsonify, render_template
 from flask_cors import CORS
 
 
-#############################################################################
 ##DATABASE SET UP
-<<<<<<< HEAD
-engine = create_engine('postgresql://postgres:Emzy3314@localhost/DogsandCats')
-=======
-# <<<<<<< HEAD
 engine = create_engine('postgresql://postgres:postgres@localhost/DogsandCats')
-# =======
-# engine = create_engine('postgresql://postgres:Sunnyisblack182!@localhost/DogsandCats')
-# >>>>>>> 622ced76c4443513abbe54cdbebdf6cbed1cecc0
->>>>>>> 31765051b0695405b066a74460b453545965ab3e
 conn = engine.connect()
 
 ##Flask Setup
