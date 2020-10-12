@@ -41,6 +41,7 @@ var myBarChart = new Chart(ctx, {
   data: data,
   options: {
       barValueSpacing: 20,
+
       scales: {
           yAxes: [{
               ticks: {

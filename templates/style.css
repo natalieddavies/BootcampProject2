@@ -217,10 +217,10 @@ html {
 }  
 /* THIS IS FOR THE INDEX.JS FOR THE INDEX.HTML WHICH ALLOWS THE SLIDER OF OUR VISUALISATIONS TO WORK */
 .fade {  
-  /* -webkit-animation-name: fade;   */
-  /* -webkit-animation-duration: 1.5s;   */
-  /* animation-name: fade;  
-  animation-duration: 1.5s; */
+  -webkit-animation-name: fade; 
+  -webkit-animation-duration: 1.5s;  
+  animation-name: fade;  
+  animation-duration: 1.5s;
 }  
 @-webkit-keyframes fade {  
   from {  
