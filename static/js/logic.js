@@ -89,7 +89,7 @@ var cats = L.layerGroup(likesCatsMarkers);
 var dogs = L.layerGroup(likesDogsMarkers);
 var myMap = L.map("map", {
   center: [37.7749, -122.4194],
-  zoom: 15,
+  zoom: 200,
   layers: [streetmap, both, cats, dogs]
 });
 
