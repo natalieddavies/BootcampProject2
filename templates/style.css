@@ -128,12 +128,9 @@ html {
 .SLIDER {
   height: 400px;
   width: 570PX;
-  padding: 25px 25px 25px 25px;
+  padding: 0px 0px 25px 0px;
   float:right;
   border-radius: 25px;
-  background-color:#FCF6F5FF;
-  border-style: solid;
-  border-color:#EDC2D8FF;
   margin:30px;
   vertical-align: middle;
   border-collapse: separate;
@@ -172,6 +169,8 @@ html {
     width: 105%;
     border-radius: 25px;
     margin: auto;
+    border-style: solid;
+    border-color:#EDC2D8FF;
   }  
   
 .slidercontainer {  
@@ -185,8 +184,8 @@ html {
   position: absolute;   
   top: 0%;  
   width: auto;  
-  padding: 10px;  
-  margin-top: -22px;  
+  padding: 15px;  
+  margin-top: -10px;  
   color:  #8ABAD3FF;  
   font-weight: bold;  
   font-size: 18px;  
@@ -200,13 +199,14 @@ html {
       color:  #EDC2D8FF;
   }  
 .content {  
-  color: black;  
+  color: navy;  
   font-size: 30px;  
   padding: 8px 12px;  
   position: absolute;  
   top: 10px;  
   width: 100%;  
 }  
+
 .active {  
   background-color: #717171;  
 }  
