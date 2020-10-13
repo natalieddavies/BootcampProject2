@@ -21,7 +21,7 @@ select * from jobs;
 
 DROP TABLE secrets;
 create table secrets (
-	secret varchar (5000),
+	secret varchar (50000),
 	pets varchar
 );
 
