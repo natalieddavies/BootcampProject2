@@ -15,7 +15,6 @@ function Cats() {
     document.getElementById("quoteDisplay").innerHTML=random;
     }
 )};
-​
 function Dogs() {
     dogurl = "http://127.0.0.1:5000/secretsdogs"
     d3.json(dogurl).then(function(likesDogs) {
@@ -24,4 +23,4 @@ function Dogs() {
         //alert(random);
     document.getElementById("quoteDisplay").innerHTML=random;
     }
-    )};
+)};
