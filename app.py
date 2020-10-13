@@ -69,5 +69,28 @@ def dogs():
     return likes_dogs
 
 
+##Flask Route for lat/long both cats and dogs
+@app.route("/secretsboth")
+def secretsboth():
+    secrets_df= pd.read_sql("select * from secrets", conn)
+    secrets_both_df = secrets_df.loc[secrets_df["pets"] == "likes both",:]
+    secrets_both = secrets_both_df.to_json(orient='records')
+    return secrets_both
+
+##Flask Route for lat/long likes cats
+@app.route("/secretscats")
+def secretsscats():
+    secrets_df= pd.read_sql("select * from secrets", conn)
+    secrets_cats_df = secrets_df.loc[secrets_df["pets"] == "likes cats",:]
+    secrets_cats = secrets_cats_df.to_json(orient='records')
+    return secrets_cats
+
+##Flask Route for lat/long likes dogs
+@app.route("/secretsdogs")
+def secretsdogs():
+    secrets_df= pd.read_sql("select * from secrets", conn)
+    secrets_dogs_df = secrets_df.loc[secrets_df["pets"] == "likes dogs",:]
+    secrets_dogs = secrets_dogs_df.to_json(orient='records')
+    return secrets_dogs
 if __name__ == '__main__':
     app.run(debug=True)
