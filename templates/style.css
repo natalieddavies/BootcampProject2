@@ -82,7 +82,7 @@ body {
 }
 
 .chartsizingdiv2 {
-  height: 300px;
+  height: fit-content;
   width: 700px;
   border-radius: 25px;
   margin:30px;
@@ -102,6 +102,11 @@ body {
     border-radius: 25px;
     border-style: solid;
     border-color:#EDC2D8FF;
+  }
+
+  .secret {
+    height: fit-content;
+    width: fit-content;
   }
 
   /* Footer */
