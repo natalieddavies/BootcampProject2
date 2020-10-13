@@ -6,6 +6,9 @@ h1 {
   color:navy;
 }
 
+h3 {
+  background-color: white;
+}
 
 * {
   font-family: Courier, monospace;
@@ -28,6 +31,34 @@ body {
   border-radius: 25px;
   border-style: solid;
   border-color:#EDC2D8FF;
+}
+
+@media(max-width: 992px) {
+  .navbar-expand-lg {
+  background-color: #000000;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: white;
+  }
+  .navbar-brand {
+    padding: 10px;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}
+
+.radar {
+  background-color: orange;
 }
 
 /* Footer */

@@ -15,5 +15,3 @@ Visualizations:
 - Map of location of cat and dog people across California
 - Bar chart of the common jobs for cat and dog people
 - Radar chart for star signs of cat and dog people
-
-
